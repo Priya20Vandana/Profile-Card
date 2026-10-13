@@ -5,7 +5,7 @@ function App(){
     <>
       <ProfileCard  
         name="Priya Vandana"
-        image="/profilepic.jpg"
+        image={`${import.meta.env.BASE_URL}profilepic.jpg`}
         description="MCA student learning Full Stack Development"
 
       />
